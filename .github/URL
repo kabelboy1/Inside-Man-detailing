@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside Man Detailing Services, LLC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #1E88E5;
+            color: white;
+            padding: 20px 10%;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1565C0;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px 10%;
+        }
+        .services, .testimonials {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.333% - 20px);
+            min-width: 250px;
+        }
+        footer {
+            background-color: #1E88E5;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Inside Man Detailing Services, LLC</h1>
+    <p>Professional Vehicle Detailing You Can Trust</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>At Inside Man Detailing Services, LLC, we provide top-tier vehicle detailing services tailored to your needs. Our experienced team ensures your vehicle looks its absolute best, inside and out.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Interior Detailing</h3>
+            <p>Deep cleaning and conditioning for seats, carpets, and dashboards.</p>
+        </div>
+        <div class="card">
+            <h3>Exterior Detailing</h3>
+            <p>Polishing, waxing, and scratch removal to restore your car’s shine.</p>
+        </div>
+        <div class="card">
+            <h3>Full-Service Packages</h3>
+            <p>Comprehensive detailing for both interior and exterior.</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonials">
+        <div class="card">
+            <p>"My car has never looked better! Highly recommend!" - Alex G.</p>
+        </div>
+        <div class="card">
+            <p>"Exceptional attention to detail and great customer service." - Jamie R.</p>
+        </div>
+        <div class="card">
+            <p>"Affordable pricing and excellent results. I'll be back!" - Chris T.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@insidemandetailing.com">info@insidemandetailing.com</a></p>
+    <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+    <p>Location: [Your Business Location]</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Inside Man Detailing Services, LLC. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
